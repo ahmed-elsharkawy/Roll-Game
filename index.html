@@ -1,0 +1,81 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>Document</title>
+  </head>
+  <body class="d-flex align-items-center justify-content-around">
+    <div
+      class="parent w-75 d-flex position-relative justify-content-center rounded"
+    >
+      <div
+        id="player1Space"
+        class="child child-left w-50 h-100 background-active text-center pt-5"
+      >
+        <h3 id="player1Name" class="mx-auto my-5">PLAYER 1</h3>
+        <div id="totalScore1" class="total-score pb-5 mx-auto mb-5">0</div>
+        <div
+          id="scoreSpace1"
+          class="current-score w-40 rounded text-white mx-auto mt-5"
+        >
+          <div class="py-2">current</div>
+          <div id="currentScore1">0</div>
+        </div>
+        <div
+          id="smileFace1"
+          class="w-40 rounded text-white mx-auto mt-5 d-none"
+        >
+          <img class="img-fluid" src="./imgs/smile.png" alt="" />
+        </div>
+      </div>
+      <div
+        id="player2Space"
+        class="child child-right w-50 h-100 background-disactive text-center pt-5"
+      >
+        <h3 id="player2Name" class="mx-auto my-5">PLAYER 2</h3>
+        <div id="totalScore2" class="total-score pb-5 mx-auto mb-5">0</div>
+        <div
+          id="scoreSpace2"
+          class="current-score w-40 rounded text-white mx-auto mt-5"
+        >
+          <div class="py-2">current</div>
+          <div id="currentScore2">0</div>
+        </div>
+        <div
+          id="smileFace2"
+          class="w-40 rounded text-white mx-auto mt-5 d-none"
+        >
+          <img class="img-fluid" src="./imgs/smile.png" alt="" />
+        </div>
+      </div>
+
+      <button
+        id="newGameButton"
+        class="btn btn-light position-absolute rounded new-game p-2"
+      >
+        🔄 NEW GAME
+      </button>
+      <div id="rollingDice" class="rolling-dice position-absolute d-none"></div>
+      <button
+        id="rollDiceButton"
+        class="btn btn-light position-absolute rounded roll-dice p-2"
+      >
+        🎲 ROLL DICE
+      </button>
+      <button
+        id="holdButton"
+        class="btn btn-light position-absolute rounded hold p-2"
+      >
+        📥 HOLD
+      </button>
+    </div>
+
+    <script src="./js/jquery-3.5.1.slim.min.js"></script>
+    <script src="./js/popper.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

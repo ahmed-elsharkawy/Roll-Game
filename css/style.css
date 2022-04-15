@@ -1,0 +1,75 @@
+body {
+  max-height: 100vh;
+  background: linear-gradient(#e66465, #6168b9);
+  font-family: cursive;
+}
+.parent {
+  height: 600px;
+}
+.child {
+}
+.child h3 {
+  font-size: 50px;
+}
+.child-left {
+  border-radius: 10px 0 0 10px;
+}
+.child-right {
+  border-radius: 0 10px 10px 0;
+}
+.w-40 {
+  width: 40%;
+}
+.h-90 {
+  height: 90%;
+}
+.background-active {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+.background-disactive {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+.total-score {
+  font-size: 50px;
+  color: #9e4848;
+}
+.current-score {
+  font-size: 30px;
+  background-color: #9e4848;
+  height: 130px;
+}
+.new-game {
+  top: 110px;
+}
+.roll-dice {
+  top: 390px;
+}
+.hold {
+  top: 460px;
+}
+.rolling-dice {
+  width: 80px;
+  height: 80px;
+  background-image: url("../imgs/dice.jpg");
+  background-size: 425% 455%;
+  top: 220px;
+  border-radius: 12px;
+}
+/* .dice-one{
+    background-position: 13.5% 33%;
+}
+.dice-two{
+    background-position: 50% 33%;
+}
+.dice-three{
+    background-position: 86% 33%;
+}
+.dice-four{
+    background-position: 13.5% 66.5%;
+}
+.dice-five{
+    background-position: 50% 66.5%;
+}
+.dice-six{
+    background-position: 86% 66.5%;
+} */
